@@ -1,0 +1,41 @@
+.container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logodiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    font-weight: bold;
+    font-size: 22px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.img{
+    width: 48px;
+    height: 48px;
+  }
+.logout{
+    padding: 5px;
+    border: none;
+    background-color: #c25353;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.login{
+    padding: 5px;
+    border: none;
+    background-color: #53c28b;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}

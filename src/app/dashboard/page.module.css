@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  .buttondiv{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+  }
+  .button {
+    padding: 20px;
+    cursor: pointer;
+    background-color: #53c28b;
+    border: none;
+    border-radius: 5px;
+    color: #eee;
+    font-weight: bold;
+  }
+  .loading{
+    font-weight: bold;
+    font-size: 240px;
+  }
